@@ -30,5 +30,6 @@ db.execSQL(comand);
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + PetsContract.TABLE_NAME);
                 onCreate(db);
+                //dsdsd
     }
 }
